@@ -1,0 +1,102 @@
+<html
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bug Be Gone</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/ok69.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">Purchase</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Services</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>services We Offer</h1>
+        <p></p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Hard drive</h3>
+                <p>if you have a problem saving files or anything with a hard drive we can fix it</p>
+            </div>
+            <div class="course-col">
+                <h3>virus </h3>
+                <p>if you have a virus we can easily fix that for you and get your pc running again</p>
+            </div>
+            <div class="course-col">
+                <h3>cpu gpu or motherboard problems</h3>
+                <p>if you have a problem with your cpu gpu or motherboard we can fix it for you easily</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our team</h1>
+        <p>what we have to offer</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/loveme.png">
+                    <h3>best team of friendly people</h3>
+                    <p>we thrive on having our team have the best service out there </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/spaghett.png">
+                    <h3>best technicians</h3>
+                    <p>our technicians are the best in iowa you will not be dissapointed</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/sex.png">
+                    <h3>best prices</h3>
+                    <p>we offer cheap and inexpensive ways to fix your computer</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>im a high school student with a vast knowledge of computers and how to make them work my whole goal is to make your computer function<br></p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made  <i class="fa fa-heart-o"></i> by Carson Jones</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
